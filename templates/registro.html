@@ -1,0 +1,14 @@
+{%extends "base.html"%}
+
+{%block principal%}
+    <h1>Registro</h1>
+
+    <form action="" method="post">
+        {% csrf_token %}
+
+        {{form.as_p}}
+
+        <button>Enviar</button>
+    </form>
+
+{%endblock%}
