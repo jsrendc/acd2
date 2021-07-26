@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
 ROOT_URLCONF = 'arteycultura.urls'
@@ -135,3 +136,5 @@ EMAIL_PORT="587"
 EMAIL_HOST_USER="mlweb.uag@gmail.com"
 EMAIL_HOST_PASSWORD="bedoylqyhzcpncgn"
 EMAIL_USE_TLS=True
+
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
