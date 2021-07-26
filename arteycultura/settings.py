@@ -137,4 +137,5 @@ EMAIL_HOST_USER="mlweb.uag@gmail.com"
 EMAIL_HOST_PASSWORD="bedoylqyhzcpncgn"
 EMAIL_USE_TLS=True
 
+STATIC_ROOT = os.path.join(BASE_DIR,"static", "static")
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
