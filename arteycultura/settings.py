@@ -139,8 +139,5 @@ EMAIL_HOST_USER="mlweb.uag@gmail.com"
 EMAIL_HOST_PASSWORD="bedoylqyhzcpncgn"
 EMAIL_USE_TLS=True
 
-
-
-
+    
 STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"
-#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
